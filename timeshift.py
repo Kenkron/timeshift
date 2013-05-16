@@ -1,4 +1,13 @@
 #!/usr/bin/python
+#
+#This script converts times from one timezone to another
+#
+#If you give it a time, a start timezone, and an end timezone,
+#This script will give you the time moved to the end timezone
+#
+#If you run the script without this information,
+#The script will open a wxPython GUI for converting timezones.
+
 import sys
 
 def main():
